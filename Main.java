@@ -14,7 +14,7 @@ System.out.println("Hello, I am" + " " + firstName + " " + lastName + ", " + "an
         // Print out whether age is even
 System.out.println(age % 2 == 0);
         // Print out whether firstName equals lastName
-System.out.println(firstName == lastName);
+System.out.println(firstName.equals(lastName));
         // Print out whether age is greater than 0
 System.out.println(age > 0);
     }
